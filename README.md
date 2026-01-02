@@ -1,8 +1,8 @@
-# 📚 API Biblioteca Mejorada
+#  API Biblioteca Mejorada
 
 Esta API fue desarrollada con **FastAPI** siguiendo principios de **Clean Architecture**, con el objetivo de gestionar una biblioteca digital. Permite realizar operaciones CRUD sobre los libros almacenados en la base de datos.
 
-## 🚀 Características
+##  Características
 
 - Obtener la lista completa de libros.
 - Consultar información detallada de un libro por su ID.
@@ -13,7 +13,7 @@ Esta API fue desarrollada con **FastAPI** siguiendo principios de **Clean Archit
 - Integración con **MySQL** como motor de base de datos.
 - Incluye un archivo `seed_data.py` para inicializar datos de prueba.
 
-## 🛠️ Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - **Python 3.11+**
 - **FastAPI** (framework principal)
@@ -22,7 +22,7 @@ Esta API fue desarrollada con **FastAPI** siguiendo principios de **Clean Archit
 - **Pydantic** (validación de datos)
 - **MySQL** (base de datos)
 
-## 📌 Endpoints principales
+##  Endpoints principales
 
 - `GET /libros` → Lista todos los libros.
 - `GET /libros/{id}` → Obtiene un libro por ID.
@@ -30,7 +30,7 @@ Esta API fue desarrollada con **FastAPI** siguiendo principios de **Clean Archit
 - `PUT /libros/{id}` → Actualiza un libro existente.
 - `DELETE /libros/{id}` → Elimina un libro.
 
-## ▶️ Ejecución local
+##  Ejecución local
 
 ```bash
 # Instalar dependencias
